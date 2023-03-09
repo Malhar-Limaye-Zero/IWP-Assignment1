@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D84C1AD6-ABBE-4486-BDB0-B859882727C1}"
+	ProjectSection(SolutionItems) = preProject
+		BT20CSE075_Malhar_Listicle.css = BT20CSE075_Malhar_Listicle.css
+		BT20CSE075_Malhar_Listicle.html = BT20CSE075_Malhar_Listicle.html
+		BT20CSE075_Malhar_Profile.css = BT20CSE075_Malhar_Profile.css
+		BT20CSE075_Malhar_Profile.html = BT20CSE075_Malhar_Profile.html
+		Images\IvLabs.jpg = Images\IvLabs.jpg
+		Images\logo.png = Images\logo.png
+		Images\Malhar-image.jpeg = Images\Malhar-image.jpeg
+		Images\Mechatronics.jpeg = Images\Mechatronics.jpeg
+		Images\Smart-Factory.jpg = Images\Smart-Factory.jpg
+		Images\vnit.jpg = Images\vnit.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1E8256D-761F-468C-931B-381093C92851}
+	EndGlobalSection
+EndGlobal

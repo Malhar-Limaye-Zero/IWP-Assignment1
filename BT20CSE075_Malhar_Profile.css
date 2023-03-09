@@ -1,0 +1,206 @@
+﻿html {
+    box-sizing: border-box;
+    padding:0;
+    margin:0 0 0 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+p {
+    font-family: "Arial", sans-serif;
+}
+th, td {
+    font-family: "Arial", sans-serif;
+}
+/*Classes for navigation bar*/
+.navbar {
+    background-color:darkblue;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar > li {
+        flex: 1;
+}
+.name {
+    color: white;
+    font-size:200%;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-item a {
+    font-size:118%;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item:hover {
+    background-color: white;
+}
+.nav-item a:hover, a:active {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: blue;
+}
+/*end of navigation*/
+/*start of main content*/
+.main {
+    display: flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+#about_me {
+    padding-top:100px;
+    background-color: white;
+    text-align:left;
+    margin-bottom:-20px;
+}
+#about_me h1 {
+    display:inline;
+    font-size:1.75em;
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+    color:#0086b5;
+}
+#about_me p{
+    font-size:1.25em;
+    color:#191919;
+    margin:0px 10px 10px 10px;
+    padding:5px 10px 10px 10px;
+}
+#about_me a{
+    display:inline-block;
+    text-decoration:none;
+    color:#191919;
+}
+#about_me a:visited{
+    color:#191919;
+}
+#about_me a:hover, a:active{
+    display:inline-block;
+    padding: 0 0;
+    text-decoration:none;
+    color:white;
+    background-color:darkblue;
+}
+#about_me img{
+    height:10em;
+    float:right;
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+}
+#education {
+    background-color: white;
+}
+#education h1 {
+    display:inline-block;
+    font-size:1.75em;
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+    color:#0086b5;
+}
+#education table{
+    width: auto;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #EFE7F8;
+    border-style: solid;
+    color: #191919;
+}
+#education th, td {
+  border-width: 2px;
+  border-color: #EFE7F8;
+  border-style: solid;
+  margin:10px 10px 10px 10px;
+  padding:10px 10px 10px 10px;
+  font-size: 1em;
+}
+#education th {
+    color: #191919;
+    background-color: dodgerblue;
+    font-size:1.2em;
+}
+#education td:last-child {
+    text-align:center;
+}
+#achievements {
+    background-color: white;
+}
+#achievements h1 {
+    display:block;
+    font-size:1.75em;
+    margin:10px 10px 0px 10px;
+    padding:10px 10px 0px 10px;
+    color:#0086b5;
+}
+#achievements li{
+    color:#191919;
+    font-size:1.25em;
+    margin:0px 10px 0px 10px;
+    padding:10px 10px 0px 10px;
+}
+#projects {
+    background-color: white;
+}
+#projects h1 {
+    display:inline-block;
+    font-size:1.75em;
+    margin:10px 10px 0px 10px;
+    padding:10px 10px 0px 10px;
+    color:#0086b5;
+}
+#projects li{
+    color:#191919;
+    font-size:1.5em;
+    margin:0px 10px 0px 10px;
+    padding:10px 10px 0px 10px;
+}
+#projects p{
+    color:#191919;
+    font-size:0.75em;
+    margin:0px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+}
+#contact {
+    margin-left:-20px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items:baseline;
+    justify-content: left;
+}
+#contact h3{
+    font-size:1.5em;
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+    color:darkslategray;
+}
+#contact p {
+    color:darkslategray;
+    padding: 10px 10px;
+    font-size:1.15em;
+    margin:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
+}
+#contact p a{
+    text-decoration:none;
+    color:darkslategray;
+}
+#contact a:hover,a:active{
+    display:inline-block;
+    padding: 0 0;
+    text-decoration:none;
+    color:lightskyblue;
+    background-color:darkslategray;
+}
